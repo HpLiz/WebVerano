@@ -1,0 +1,30 @@
+body{
+    font-family: 'Montserrat', sans-serif ;
+    overflow-x: hidden;
+    background-color: #302e2e;
+}
+/*Navbar*/
+#menu{
+    background-color: #ba7b7c;
+}
+#menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+#menu li a:hover{
+    color: black;
+}*/
+/*Carrusel*/
+.carousel_inner{
+    max-height: 39rem;
+}
+
+/*Body*/
+
+/*Media*/
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+}
