@@ -1,7 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif ;
     overflow-x: hidden;
-    background-color: rgb(39, 39, 39);
+    background-color: #1d1018;
 }
 /*Navbar*/
 #menu{
@@ -36,16 +36,43 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+/*Navegación*/
 .navegacion{
     text-align: center;
     margin-top: 15px;
     width: 1150px;
-    background-color: gray;
-}
-.navegacion col{
-    flex-direction: row;
 }
 
+.custom-row {
+    margin-right: -1px;
+    margin-left: -1px;
+  }
+.custom-column {
+    border-right: 10px solid #efc9dd;
+
+}
+.img-separator {
+    margin-top: 10px;
+}
+
+.custom-column h3 {
+    color: #efc9dd; /* Cambia "blue" por el color de texto deseado */
+}
+  
+.custom-column p {
+    color: #efc9dd; /* Cambia "green" por el color de texto deseado */
+}
+  
+.custom-column a {
+    color: #ba7b7c; /* Cambia "red" por el color de texto deseado */
+}
+
+/*.titulo{
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+}*/
 
 .container-fluid{
     display: flex;
