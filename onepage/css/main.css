@@ -1,11 +1,15 @@
 body{
     font-family: 'Montserrat', sans-serif ;
     overflow-x: hidden;
-    background-color: #302e2e;
+    background-color: rgb(39, 39, 39);
 }
 /*Navbar*/
 #menu{
     background-color: #ba7b7c;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
 }
 #menu li > a{
     font-size: 18px;
@@ -17,14 +21,56 @@ body{
 }*/
 /*Carrusel*/
 .carousel_inner{
-    max-height: 39rem;
+    max-height: 30rem;
 }
 
 /*Body*/
+.contenedor{
+    /*position: relative;*/
+    width: 1200px;
+    height: 800px;
+    background-color: #efc9dd;
+    margin: auto auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navegacion{
+    text-align: center;
+    margin-top: 15px;
+    width: 1150px;
+    background-color: gray;
+}
+.navegacion col{
+    flex-direction: row;
+}
+
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+h1 span{
+    color: #ba7b7c;
+}
 
 /*Media*/
 @media (max-width:768px){
     #intro{
         width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 570px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
     }
 }
