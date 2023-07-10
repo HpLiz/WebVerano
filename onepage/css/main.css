@@ -23,12 +23,43 @@ body{
 .carousel_inner{
     max-height: 30rem;
 }
+/*Carrusel de links*/
+/*.contenedor-new{
+    /*position: relative;
+    width: 1200px;
+    height: 300px;
+    background-color: #efc9dd;
+    margin: auto auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}*/
+.contenedor_c{
+    /*position: relative;*/
+    width: 200;
+    height: 300px;
+    /*background-color: #efc9dd;*/
+    margin: auto auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.carousel_c-item img {
+    width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
+    height: auto; /* Mantiene la relación de aspecto original */
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el último valor (0.5) para ajustar la opacidad */
+    padding: 10px;
+    color: #fff; /* Cambia el color del texto si es necesario */
+}
 
 /*Body*/
 .contenedor{
     /*position: relative;*/
     width: 1200px;
-    height: 800px;
+    /*height: 800px;*/
     background-color: #efc9dd;
     margin: auto auto;
     text-align: center;
@@ -50,6 +81,7 @@ body{
   }
 .custom-column {
     border-right: 10px solid #efc9dd;
+    border-bottom: 20px solid #efc9dd;
 
 }
 .img-separator {
@@ -57,15 +89,32 @@ body{
 }
 
 .custom-column h3 {
-    color: #efc9dd; /* Cambia "blue" por el color de texto deseado */
+    color: #efc9dd;
 }
   
 .custom-column p {
-    color: #efc9dd; /* Cambia "green" por el color de texto deseado */
+    color: #efc9dd;
 }
   
 .custom-column a {
-    color: #ba7b7c; /* Cambia "red" por el color de texto deseado */
+    color: #ba7b7c;
+}
+
+/*Titulos y parrafos*/
+.custom-h2{
+    font-weight: bold;
+    width: 800px;
+    background-color: #1d1018;  
+    color: #fff;
+    margin: 50px auto;
+    font-size: 50px;
+}
+.custom-p {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: large;
 }
 
 /*.titulo{
@@ -74,10 +123,10 @@ body{
     text-align: center;
 }*/
 
-.container-fluid{
+/*.container-fluid{
     display: flex;
     justify-content: center;
-}
+}*/
 
 h1 span{
     color: #ba7b7c;
