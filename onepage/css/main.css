@@ -145,6 +145,83 @@ body{
     color: #fff;
   }
 
+/*Modals*/
+
+/*Para la linea con texto*/
+.line-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    flex-grow: 1;
+    border-top: 0.5px solid #c7c7bd;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+.line-text {
+    margin: 0 10px;
+    font-weight: normal;
+}
+  
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+  /*Modal google*/
+.modal-body-gg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+  
+.h2-gg{
+    text-align: center;
+    margin: 50px 0;
+}
+.p-gg{
+    margin: 50px 0;
+}
+
+.continuar-inline {
+    display: flex;
+    align-items: center;
+}
+  
+/*Modal git*/
+.modal-body-git{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #0d1117;
+}
+.form-git{
+    background-color: #161b22;
+    margin: 10px;
+    padding: 20px;
+    width: 350px;
+}
+.form-git .fab{
+    font-size: 50px;
+    padding: auto 0;
+    color: #fff;
+}
+.form-git button{
+    margin-top: 20px;
+}
+.form-git .icono{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+  
+
 /*Media*/
 @media (max-width:768px){
     #intro{
